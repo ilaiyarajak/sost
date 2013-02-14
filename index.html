@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+			<header> 
+			<title>ILAIYARAJA</title> 
+				<meta name="viewport" content="width=device-width, initial-scale=1"> 
+				<link rel="stylesheet" href="css\jquery.mobile-1.2.0.min.css" />
+				<script src="js\jquery-1.8.2.min.js"></script>
+				<script src="js\jquery.mobile-1.2.0.min.js"></script>
+				<!--<script src="login.js">				</script>-->
+			</header> 
+		<body>
+
+			<form action="/Loginvalidation" id="login" align="center" method="post"> 
+				<div data-role="page" id="login">
+
+					<div data-role="header">
+						<h1>Login page</h1>
+					</div><!-- /header -->
+
+					<div data-role="content">	
+						<input type="text" name="username" id="uname" placeholder="Username" autofocus required></input>
+						<input type="password" name="password" id="pword" placeholder="Password" ></input>
+						<input type="submit"  id="loginbutton" value="LOGIN" action="loginvalidation()"></div>
+					</div><!-- /content -->
+					<div data-role="footer">
+						<h1>Copyright@ilaiya</h1>
+					</div>
+
+				</div><!-- /page -->
+
+
+			</form>
+	</body>
+</html>

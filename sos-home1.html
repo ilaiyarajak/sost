@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>ILAIYARAJA</title>
+		
+		<link rel="stylesheet" href="css\jquery.mobile-1.2.0.min.css" />
+		<script src="js\jquery-1.8.2.min.js"></script>
+		<script src="js\jquery.mobile-1.2.0.min.js"></script>
+			
+    </head>
+    <body>
+		<div data-role="page" id="home">
+			<header data-role="header" id="header" data-position="fixed">
+				<p align="center">SMART ORDER SYSTEM</p>
+			</header>
+				<div data-role="content">
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><div class="ui-bar ui-bar-c" style="height:140px">
+							<a href="sos-catsubcat.html" rel="external">
+							<img src="images\home-creatnew.png" alt="New" />
+							<p>New</p>
+							</a>
+						</div></div>
+						<div class="ui-block-b"><div class="ui-bar ui-bar-c" style="height:140px">
+							<a href="#edit">
+							<img src="images\home-edit.png" alt="Edit" />
+							</a>
+						</div></div>            
+					</div>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><div class="ui-bar ui-bar-c" style="height:140px">
+							<a href="index.html" rel="external">
+							<img src="images\home-logout.png" alt="Logout" />
+							</a>
+						</div></div>
+						<div class="ui-block-b"><div class="ui-bar ui-bar-c" style="height:140px">
+							
+						</div></div>            
+					</div>
+				</div>
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#" data-icon="home">Home</a></li>
+						<li><a href="#" data-icon="grid">Grid</a></li>
+						<li><a href="#" data-icon="info">Info</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div><!--Home page-->
+
+		<div data-role="page" id="edit">
+			<header data-role="header">
+				<h1>Edit</h1>
+				<a href="#home" data-icon="back" data-iconpos="left">Back</a>
+			</header>
+			<img src="images\home-edit.png" class="fullscreen" alt="Go back" />
+		</div><!-- Page edit -->
+    </body>
+</html>

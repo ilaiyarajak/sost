@@ -1,0 +1,13 @@
+#imgdiv 
+{
+height:130px;
+width:130px;
+}
+
+#imgdiv img
+{
+max-width:110%; 
+max-height:100%;
+margin:auto;
+display:block;
+}
